@@ -70,8 +70,8 @@ function humescores_setup() {
 
 	// Add theme support for Custom Logo
 	add_theme_support( 'custom-logo', array(
-		'width' => 90,
-		'height' => 90,
+		'width' => 150,
+		'height' => 36,
 		'flex-width' => true,
 	));
 

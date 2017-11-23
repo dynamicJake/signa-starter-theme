@@ -1,5 +1,5 @@
-$color__skin: #11cd9a; // Header etc.
-$color__interactive: #11cd9a; // Links, highlights, etc.
+$color__skin: #1e203c; // Header etc.
+$color__interactive: #1ddfa8; // Links, highlights, etc.
 
 $color__background-body: #fff;
 $color__background-screen: #f1f1f1;
@@ -13,7 +13,7 @@ $color__text-input: #666;
 $color__text-input-focus: #111;
 $color__link: #000;
 $color__link-visited: #000;
-$color__link-hover: $color__interactive;
+$color__link-hover: initial;
 $color__text-main: #000;
 
 $color__border-button: #ccc #ccc #bbb;
