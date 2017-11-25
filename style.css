@@ -266,8 +266,8 @@ select,
 textarea {
   color: #000;
   font-family: "PT Serif", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
 }
 
@@ -277,8 +277,8 @@ textarea {
   input,
   select,
   textarea {
-    font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -842,6 +842,22 @@ a:hover, a:active {
   }
 }
 
+.icon-content {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  fill: #30a0d2;
+  background-color: transparent;
+  border-radius: 0;
+  transition: all .3s ease-in;
+  margin: 10px 20px;
+}
+
+.icon-content:hover {
+  fill: #37f137;
+  transform: scale(1.1);
+}
+
 .site-content {
   max-width: 1080px;
   margin: 0 auto;
@@ -886,6 +902,46 @@ a:hover, a:active {
   }
   .single.no-sidebar .post-content__wrap .post-content__body {
     width: 70%;
+  }
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.flex {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: column;
+  height: auto;
+}
+
+.col, .col-twice {
+  flex: 1 0 auto;
+  width: 100%;
+  background-color: papayawhip;
+  min-height: 100px;
+  padding: 1em;
+  border: solid 1px black;
+}
+
+@media screen and (min-width: 900px) {
+  .flex {
+    flex-direction: row;
+  }
+  .col {
+    flex: 1;
+    background-color: papayawhip;
+    min-height: 100px;
+    height: auto;
+    border: solid 1px black;
+  }
+  .col-twice {
+    flex: 4 0 0;
+    background-color: papayawhip;
+    min-height: 100px;
+    height: auto;
+    border: solid 1px black;
   }
 }
 
@@ -1085,6 +1141,7 @@ a:hover, a:active {
   .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .site-branding {
     width: 35%;
