@@ -22,13 +22,15 @@
 .site-branding {
 	display: flex;
 	min-height: 65px;
+	align-items: center;
 }
 
 .custom-logo-link {
 	margin-right: 1em;
+	
 	img {
 		display: block;
-		height: 65px;
+		height: auto;
 		width: auto;
 	}
 }
@@ -38,7 +40,6 @@
 	flex-direction: column;
 	justify-content: center;
 	height: 65px;
-	background-image: url(/wp-content/themes/signa-starter-theme/images/logo-multipurpose.png);
 }
 
 .site-title {
@@ -70,6 +71,7 @@
 	.site-header {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 	}
 
 	.site-branding {
