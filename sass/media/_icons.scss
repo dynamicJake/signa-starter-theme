@@ -2,13 +2,30 @@
 
 .icon {
 	display: inline-block;
-	fill: currentColor;
-	height: 1em;
+	fill: $color__icon;
+	height: 3em;
 	position: relative; /* Align more nicely with capital letters */
 	top: -0.0625em;
 	vertical-align: middle;
-	width: 1em;
+	width: 3em;
 }
+
+.icon-content {
+	display: inline-block;
+	width: 2.5em;
+	height: 2.5em;
+	fill: rgb(48, 160, 210);
+	background-color: transparent;
+	border-radius: 0;
+	transition: all .3s ease-in;
+	margin: 10px 20px;
+
+		&:hover {
+			fill: $color__icon-hover;
+			transform: scale(1.1);
+		} 
+  
+  }
 
 /*--------------------------------------------------------------
 SVG Fallbacks

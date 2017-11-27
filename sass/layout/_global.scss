@@ -6,23 +6,13 @@
 	}
 }
 
-.icon-content {
-	display: inline-block;
-	width: 100px;
-	height: 100px;
-	fill: rgb(48, 160, 210);
-	background-color: transparent;
-	border-radius: 0;
-	transition: all .3s ease-in;
-	margin: 10px 20px;
-
-		&:hover {
-			fill: $color__icon-hover;
-			transform: scale(1.1);
-		} 
-  
-  }
-
+#home-btn {
+	border-radius: 50px;
+	padding: .6em 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: solid 2px $custom-primary;
+}
 
 .site-content {
 	max-width: $size__max-width;
@@ -90,10 +80,5 @@
 		}
 	}
 }
-
-/*--------------------------------------------------------------
-## Captions
---------------------------------------------------------------*/
-@import "columns";
 
 
