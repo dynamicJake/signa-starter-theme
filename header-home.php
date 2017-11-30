@@ -1,12 +1,12 @@
 <?php
 /**
- * The header for our theme.
+ * The header for the theme.
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Humescores
+ * 
  */
 
 ?><!DOCTYPE html>
@@ -18,7 +18,6 @@
 
 <?php wp_head(); ?>
 </head>
-
 <body>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'humescores' ); ?></a>
